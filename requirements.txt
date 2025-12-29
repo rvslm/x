@@ -1,0 +1,7 @@
+nicegui
+requests
+pandas
+numpy
+textblob
+python-dateutil
+lxml
