@@ -24,7 +24,7 @@ from collections import Counter
 auto_pilot_lock = asyncio.Lock()
 
 # --- API KEYS ---
-MAX_RESULTS_RAPID = 20
+MAX_RESULTS_RAPID = 100
 MAX_RESULTS_OFFICIAL = 20
 
 # Official X API Bearer Tokens
@@ -1258,4 +1258,5 @@ ui.run(
     title="CISF Monitor Pro",
     favicon="🛡️",
     reload=False
+
 )
